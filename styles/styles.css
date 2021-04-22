@@ -1,0 +1,91 @@
+
+*{
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    height: 100px;
+}
+#logo{
+    background-image: url(/assets/database-key.svg);
+    background-repeat: no-repeat;
+    width: 60px;
+}
+.logo-text{
+    font-family: 'Yusei Magic', sans-serif;
+}
+/* .head{
+    width: 20%;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+} */
+.main{
+    background-color: darkgrey;
+min-height: 632px;
+}
+
+.countrybtn{
+
+ height: 25%;
+}
+.boton{
+    width: 25%;
+    position: relative;
+    left: 200px;
+}
+.userlistbtn{
+position: absolute;
+top: 370px;
+left: 10px;
+width: 20%;
+
+}
+
+ul, #myUL {
+    list-style-type: none;
+  }
+  
+  /* Remove margins and padding from the parent ul */
+  #myUL {
+    margin: 0;
+    padding: 0;
+    /* width: 50%; */
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+  
+  
+  /* Style the caret/arrow */
+  .caret {
+    cursor: pointer;
+    user-select: none; /* Prevent text selection */
+  }
+  
+  /* Create the caret/arrow with a unicode, and style it */
+  .caret::before {
+    content: url(/assets/globe-solid.svg);
+    width: 20px;
+    color: black;
+    display: inline-block;
+    margin-right: 6px;
+  }
+  
+  /* Rotate the caret/arrow icon when clicked on (using JavaScript) */
+  .caret-down::before {
+    transform: rotate(90deg);
+  }
+  
+  /* Hide the nested list */
+ 
+  
+  /* Show the nested list when the user clicks on the caret/arrow (with JavaScript) */
+  .active {
+    display: block;
+  }
