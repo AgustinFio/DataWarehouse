@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Logo</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contactos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Usuarios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Compañías</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Región / Ciudad</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <h1 class="my-5">Regiones y ciudades</h1>
+
+        <!-- <div class="card m-5">
+            <div class="card-header d-flex align-items-center gap-3 bg-dark text-light">
+                <strong>Sudamerica</strong>
+                <a href="#" class="text-secondary"><i class="fas fa-pen"></i></a>
+                <a href="#" class="text-danger"><i class="fas fa-trash-alt"></i></a>
+                <button class="btn btn-sm btn-primary ms-auto">+ Agregar país</button>
+            </div>
+            <div class="card-body p-4">
+                <div class="card">
+                    <div class="card-header d-flex align-items-center gap-3">
+                        <strong>Argentina</strong>
+                        <a href="#" class="text-secondary"><i class="fas fa-pen"></i></a>
+                        <a href="#" class="text-danger"><i class="fas fa-trash-alt"></i></a>
+                        <button class="btn btn-sm btn-primary ms-auto">+ Agregar ciudad</button>
+                    </div>
+                    <div class="card-body d-flex flex-column gap-3 p-4">
+                        <div class="card">
+                            <div class="card-body d-flex gap-3">
+                                <span>Buenos Aires</span>
+                                <a href="#" class="text-secondary"><i class="fas fa-pen"></i></a>
+                                <a href="#" class="text-danger"><i class="fas fa-trash-alt"></i></a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body d-flex gap-3">
+                                <span>Rosario</span>
+                                <a href="#" class="text-secondary"><i class="fas fa-pen"></i></a>
+                                <a href="#" class="text-danger"><i class="fas fa-trash-alt"></i></a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body d-flex gap-3">
+                                <span>Córdoba</span>
+                                <a href="#" class="text-secondary"><i class="fas fa-pen"></i></a>
+                                <a href="#" class="text-danger"><i class="fas fa-trash-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card m-5">
+            <div class="card-header d-flex align-items-center gap-3 bg-dark text-light">
+                <strong>Norteamérica</strong>
+                <a href="#" class="text-secondary"><i class="fas fa-pen"></i></a>
+                <a href="#" class="text-danger"><i class="fas fa-trash-alt"></i></a>
+                <button class="btn btn-sm btn-primary ms-auto">+ Agregar país</button>
+            </div>
+            <div class="card-body p-4">
+                <div class="card">
+                    <div class="card-header d-flex align-items-center gap-3">
+                        <strong>México</strong>
+                        <a href="#" class="text-secondary"><i class="fas fa-pen"></i></a>
+                        <a href="#" class="text-danger"><i class="fas fa-trash-alt"></i></a>
+                        <button class="btn btn-sm btn-primary ms-auto">+ Agregar ciudad</button>
+                    </div>
+                    <div class="card-body d-flex flex-column gap-3 p-4">
+                        <div class="card">
+                            <div class="card-body d-flex gap-3">
+                                <span>Tulum</span>
+                                <a href="#" class="text-secondary"><i class="fas fa-pen"></i></a>
+                                <a href="#" class="text-danger"><i class="fas fa-trash-alt"></i></a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body d-flex gap-3">
+                                <span>Jalisco</span>
+                                <a href="#" class="text-secondary"><i class="fas fa-pen"></i></a>
+                                <a href="#" class="text-danger"><i class="fas fa-trash-alt"></i></a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body d-flex gap-3">
+                                <span>Oaxaca</span>
+                                <a href="#" class="text-secondary"><i class="fas fa-pen"></i></a>
+                                <a href="#" class="text-danger"><i class="fas fa-trash-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+
+
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+<script src="../js/script.js"></script>
+</body>
+</html>
